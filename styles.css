@@ -1,0 +1,16 @@
+body {
+    background-color: #f2f2f2; /* لون خلفية خفيف */
+    font-family: Arial, sans-serif; /* نوع الخط */
+    direction: rtl; /* لضبط اتجاه الصفحة لليمين */
+    text-align: right; /* محاذاة النصوص لليمين */
+}
+
+h1 {
+    color: #2c3e50; /* لون العنوان */
+    font-size: 32px; /* حجم العنوان */
+}
+
+p {
+    color: #555; /* لون النص */
+    font-size: 20px; /* حجم الفقرة */
+}
