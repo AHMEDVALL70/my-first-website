@@ -1,21 +1,53 @@
 body {
-    background-color: #f2f2f2;
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-img {
-    margin-top: 20px;
-    border-radius: 15px;
+/* الهيدر */
+header {
+    padding: 50px 20px;
 }
-
-button {
-    margin-top: 20px;
-    padding: 12px 25px;
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+header p {
     font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    opacity: 0.9;
 }
 
+/* المحتوى */
+.content {
+    margin-top: 40px;
+}
+.content img {
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, .3);
+}
+.content button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #ffca28;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.content button:hover {
+    background: #ffb300;
+    transform: scale(1.07);
+}
 
+/* الفوتر */
+footer {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px 0;
+    font-size: 14px;
+}
