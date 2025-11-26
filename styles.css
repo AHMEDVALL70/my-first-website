@@ -1,157 +1,30 @@
+/* ===== تنسيق الصفحة العامة ===== */
 body {
-    font-family: 'Cairo', sans-serif;
-    background: linear-gradient(120deg, #1e3c72, #2a5298);
-    color: white;
-    text-align: center;
+    font-family: "Cairo", sans-serif;
     margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e3a8a, #2d4db2);
+    color: white;
 }
 
-/* الهيدر */
-header {
-    padding: 50px 20px;
-}
-header h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-header p {
-    font-size: 18px;
-    opacity: 0.9;
+/* ===== العنوان الرئيسي ===== */
+h1 {
+    font-size: 45px;
+    margin-top: 80px;
+    font-weight: bold;
 }
 
-/* المحتوى */
-.content {
-    margin-top: 40px;
-}
-.content img {
-    width: 300px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, .3);
-}
-.content button {
-    margin-top: 25px;
-    padding: 12px 30px;
-    background: #ffca28;
-    color: #000;
+/* ===== النص تحت العنوان ===== */
+p {
     font-size: 20px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: .3s;
-}
-.content button:hover {
-    background: #ffb300;
-    transform: scale(1.07);
+    margin-bottom: 30px;
 }
 
-/* الفوتر */
-footer {
-    margin-top: 60px;
-    background: rgba(255, 255, 255, 0.15);
-    padding: 15px 0;
-    font-size: 14px;
-}
-/* ------- Navigation Bar ------- */
-.navbar {
-    width: 100%;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    color: #fff;
-}
-
-.navbar .logo {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-.navbar ul li a:hover {
-    color: #ffd23f;
-    transform: scale(1.1);
-}
-
-/* حتى لا يختفي المحتوى خلف القائمة */
-body {
-    padding-top: 80px;
-}
-/* 🔷 Navbar Style */
-.navbar {
-    background: #0d47a1;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    font-size: 18px;
-}
-
-.navbar .logo {
-    font-size: 26px;
-    font-weight: bold;
-}
-
-/* الروابط */
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-/* 📱 تصميم الموبايل */
-.menu-icon {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-@media (max-width: 768px){
-    .navbar ul {
-        display: none;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background: rgba(0,0,0,0.9);
-        width: 200px;
-        padding: 20px;
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-
-    .navbar ul.show {
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-}
+/* ===== صورة الملف الشخصي ===== */
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+    transi
