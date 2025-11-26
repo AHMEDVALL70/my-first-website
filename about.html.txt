@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>من أنا؟</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>من أنا؟</h1>
+
+    <p>
+        مرحباً! أنا أحمدفال، وهذه أول صفحة تعريفية أقوم بإنشائها بواسطة HTML + CSS.  
+        أسعى لتعلم تطوير الويب خطوة بخطوة، واليوم بدأت ببناء موقعي الأول.
+    </p>
+
+    <button onclick="window.location.href='index.html'">
+        العودة للصفحة الرئيسية
+    </button>
+</body>
+</html>
+Added about page
+
+
