@@ -93,3 +93,65 @@ footer {
 body {
     padding-top: 80px;
 }
+/* 🔷 Navbar Style */
+.navbar {
+    background: #0d47a1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 18px;
+}
+
+.navbar .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* الروابط */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* 📱 تصميم الموبايل */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: rgba(0,0,0,0.9);
+        width: 200px;
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar ul.show {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
